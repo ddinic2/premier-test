@@ -1,0 +1,53 @@
+.logInDiv{
+  -webkit-box-shadow: 11px -4px 44px -12px rgba(172, 171, 172, 0.945);
+  -moz-box-shadow: 11px -4px 44px -12px rgba(138, 135, 138, 0.945);
+  box-shadow: 11px -4px 44px -12px rgba(138, 135, 138, 0.945);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 400px;
+  padding: 10px;
+}
+
+.row{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+mat-form-field{
+  width: 300px;
+}
+
+.infoCard{
+  -webkit-box-shadow: 11px -4px 44px -12px rgba(172, 171, 172, 0.945);
+  -moz-box-shadow: 11px -4px 44px -12px rgba(138, 135, 138, 0.945);
+  box-shadow: 11px -4px 44px -12px rgba(138, 135, 138, 0.945);
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding-top: 1px;
+  margin-top: 5px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+}
+
+.inline>li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.inline{
+  list-style-type: none;
+  padding-bottom: 5px;
+}
+
+.mgtbOne{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.green{
+  background-color: #51d87c;
+  color: whitesmoke;
+}
