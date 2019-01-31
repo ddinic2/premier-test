@@ -1,0 +1,63 @@
+ul>li{
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px;
+  /* padding: 30px 10px 5px 10px; */
+  padding-top: 15px;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+}
+
+.myList>li{
+  border-radius: 30px;
+  opacity: 1;
+}
+
+.red{
+  background-color: red;
+  color: whitesmoke;
+}
+.green{
+  background-color: #45BB50;
+  color: whitesmoke;
+}
+.lightBlue{
+  background-color: #0093D6;
+  color: whitesmoke;
+}
+.blue{
+  background-color: #004496;
+  color: whitesmoke;
+}
+.violet{
+  background-color: #7D3685;
+  color: whitesmoke;
+}
+.pink{
+  background-color: #DA2681;
+  color: whitesmoke;
+}
+.orange{
+  background-color: #FF6800;
+  color: whitesmoke;
+}
+.yellow{
+  background-color: #F9A62F;
+  color: whitesmoke;
+}
+
+.active{
+  opacity: 0.4;
+}
+
+.dimension{
+  height: 20px;
+  width: 20px;
+}
+
+.mgR40{
+  margin-right: 40px;
+}

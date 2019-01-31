@@ -1,0 +1,22 @@
+.mgR{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.resultDiv{
+  -webkit-box-shadow: 11px -4px 44px -12px rgba(172, 171, 172, 0.945);
+  -moz-box-shadow: 11px -4px 44px -12px rgba(138, 135, 138, 0.945);
+  box-shadow: 11px -4px 44px -12px rgba(138, 135, 138, 0.945);
+  border: 1px solid red;
+  border-radius: 5px;
+  padding-top: 1px;
+  margin-top: 5px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  width: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.width50{
+  width: 50%;
+}

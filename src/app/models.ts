@@ -1,4 +1,55 @@
-export class UserModel {
-  UserName: string;
-  Password: string;
+export class NumberList {
+  number: number;
+  color: string;
 }
+
+export const DATA: NumberList[] = [
+  {number: 1, color: 'green'},
+  {number: 2, color: 'red'},
+  {number: 3, color: 'red'},
+  {number: 4, color: 'lightBlue'},
+  {number: 5, color: 'lightBlue'},
+  {number: 6, color: 'yellow'},
+  {number: 7, color: 'red'},
+  {number: 8, color: 'green'},
+  {number: 9, color: 'violet'},
+  {number: 10, color: 'orange'},
+  {number: 11, color: 'violet'},
+  {number: 12, color: 'lightBlue'},
+  {number: 13, color: 'green'},
+  {number: 14, color: 'pink'},
+  {number: 15, color: 'orange'},
+  {number: 16, color: 'green'},
+  {number: 17, color: 'yellow'},
+  {number: 18, color: 'yellow'},
+  {number: 19, color: 'red'},
+  {number: 20, color: 'orange'},
+  {number: 21, color: 'blue'},
+  {number: 22, color: 'green'},
+  {number: 23, color: 'pink'},
+  {number: 24, color: 'blue'},
+  {number: 25, color: 'violet'},
+  {number: 26, color: 'yellow'},
+  {number: 27, color: 'pink'},
+  {number: 28, color: 'blue'},
+  {number: 29, color: 'red'},
+  {number: 30, color: 'orange'},
+  {number: 31, color: 'violet'},
+  {number: 32, color: 'pink'},
+  {number: 33, color: 'blue'},
+  {number: 34, color: 'lightBlue'},
+  {number: 35, color: 'yellow'},
+  {number: 36, color: 'pink'},
+  {number: 37, color: 'violet'},
+  {number: 38, color: 'blue'},
+  {number: 39, color: 'lightBlue'},
+  {number: 40, color: 'green'},
+  {number: 41, color: 'orange'},
+  {number: 42, color: 'yellow'},
+  {number: 43, color: 'blue'},
+  {number: 44, color: 'orange'},
+  {number: 45, color: 'pink'},
+  {number: 46, color: 'violet'},
+  {number: 47, color: 'lightBlue'},
+  {number: 48, color: 'red'}
+];

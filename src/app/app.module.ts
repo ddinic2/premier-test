@@ -11,20 +11,26 @@ import { MatFormFieldModule,
   MatButtonModule,
   MatCheckboxModule,
   MatSelectModule,
-  MatIconModule } from '@angular/material';
+  MatIconModule,
+  MatAutocompleteModule,
+  MatGridListModule} from '@angular/material';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
-import { LogInFormComponent } from './log-in-form/log-in-form.component';
 import { HttpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
+import { StringDateComponent } from './string-date/string-date.component';
+import { AutoSuggestionComponent } from './auto-suggestion/auto-suggestion.component';
+import { GameNumbersComponent } from './game-numbers/game-numbers.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LogInFormComponent,
-    AppComponent
+    AppComponent,
+    StringDateComponent,
+    AutoSuggestionComponent,
+    GameNumbersComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +48,9 @@ import { HttpClientModule } from '@angular/common/http';
     MatIconModule,
     MatSelectModule,
     HttpModule,
-    HttpClientModule
+    HttpClientModule,
+    MatAutocompleteModule,
+    MatGridListModule
 ],
   providers: [],
   bootstrap: [AppComponent]

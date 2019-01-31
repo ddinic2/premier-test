@@ -1,0 +1,65 @@
+<mat-grid-list cols="6" rowHeight="9:1">
+  <mat-grid-tile
+      [colspan]="3"
+      [rowspan]="16"
+      [style.background]="">
+   <ul>
+     <li (click)="pickNumber(i)" *ngFor="let item of listOfNumbers, let i = index" class={{item.color}}>
+        {{item.number}}
+     </li>
+   </ul>
+  </mat-grid-tile>
+      <mat-grid-tile
+      [colspan]="3"
+      [rowspan]="16"
+      [style.background]="">
+      Izabrani brojevi su: <br>
+  <ul class="myList" *ngIf="listOfPick.length > 0">
+    <li *ngFor="let item of listOfPick, let i = index" class={{item.color}}>
+       {{item.number}}
+    </li>
+  </ul>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<ul>
+  <li>
+    <button class="red dimension" (click)="getWithColor('red')" mat-fab></button>
+  </li>
+  <li>
+    <button class="green dimension" (click)="getWithColor('green')" mat-fab></button>
+  </li>
+  <li>
+    <button class="lightBlue dimension" (click)="getWithColor('lightBlue')" mat-fab></button>
+  </li>
+  <li>
+    <button class="blue dimension" (click)="getWithColor('blue')" mat-fab></button>
+  </li>
+  <li>
+    <button class="violet dimension" (click)="getWithColor('violet')" mat-fab></button>
+  </li>
+  <li>
+    <button class="pink dimension" (click)="getWithColor('pink')" mat-fab></button>
+  </li>
+  <li>
+    <button class="orange dimension" (click)="getWithColor('orange')" mat-fab></button>
+  </li>
+  <li>
+    <button class="yellow dimension" (click)="getWithColor('yellow')" mat-fab></button>
+  </li>
+</ul>
+
+<mat-grid-list cols="6" rowHeight="9:1">
+  <mat-grid-tile
+      [colspan]="3"
+      [rowspan]="1"
+      [style.background]="">
+      <button color="primary" mat-raised-button (click)="getRandom()">Random 6</button>
+  </mat-grid-tile>
+      <mat-grid-tile
+      [colspan]="3"
+      [rowspan]="1"
+      [style.background]="">
+      <button color="primary" mat-raised-button (click)="reset()">Reset</button>
+  </mat-grid-tile>
+</mat-grid-list>

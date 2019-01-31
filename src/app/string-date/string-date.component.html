@@ -1,0 +1,21 @@
+<form [formGroup]="stringForReverse">
+  <mat-form-field class="width50">
+    <input type="text" required matInput formControlName="String" placeholder="Unesite tekst">
+  </mat-form-field>
+</form>
+<button mat-raised-button class="mgR" (click)="getReverseString()" color="primary">Reverse string</button>
+<button mat-raised-button (click)="getNumberOfWords()" color="primary">Broj reci</button><br>
+
+<form [formGroup]="numberForDay">
+  <mat-form-field class="width50">
+    <input type="text" required matInput formControlName="Day"  onkeypress="return (event.charCode == 8 || event.charCode == 0 || event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57"
+    name="itemConsumption" placeholder="Unesite broj">
+  </mat-form-field>
+</form>
+<button mat-raised-button (click)="getNewDate()" color="primary">Novi datum</button><br><br>
+
+<div class="resultDiv" *ngIf="tempRes">
+  {{tempRes}}
+</div>
+
+<a mat-raised-button routerLink="/auto-suggestion" routerLinkActive="active">Auto suggestion</a>

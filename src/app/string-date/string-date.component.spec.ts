@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LogInFormComponent } from './log-in-form.component';
+import { StringDateComponent } from './string-date.component';
 
-describe('LogInFormComponent', () => {
-  let component: LogInFormComponent;
-  let fixture: ComponentFixture<LogInFormComponent>;
+describe('StringDateComponent', () => {
+  let component: StringDateComponent;
+  let fixture: ComponentFixture<StringDateComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LogInFormComponent ]
+      declarations: [ StringDateComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LogInFormComponent);
+    fixture = TestBed.createComponent(StringDateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
